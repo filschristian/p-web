@@ -1,9 +1,9 @@
 function toggle_nav() {
   var x = document.getElementById("navigation-bar");
-  if (x.className === ""){
+  if (x.className === "") {
     x.className = "responsive";
-  }else {
+  } else {
     x.className = "";
   }
-  
+
 }

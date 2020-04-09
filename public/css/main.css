@@ -6,6 +6,10 @@ body {
   background-color: black;
 }
 
+.section_content_side div {
+  line-height: 1.8em;
+}
+
 nav {
   height: 64px;
   width: 100%;
@@ -113,7 +117,7 @@ main {
 }
 
 .social_icons :hover {
-  color: black;
+  color: white;
 }
 
 #shape {
@@ -184,7 +188,7 @@ main {
   color: rgb(255, 94, 0);
 }
 
-.section_content>* {
+.section_content > * {
   min-width: 300px;
   max-width: 40%;
 }
@@ -304,13 +308,13 @@ footer a:hover {
     display: block;
   }
 
-  .responsive>*:last-child {
+  .responsive > *:last-child {
     position: absolute;
     top: 8px;
     left: 0;
   }
 
-  .responsive+main {
+  .responsive + main {
     margin-top: auto;
   }
 }
